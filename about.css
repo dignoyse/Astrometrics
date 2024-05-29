@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #ffffff;
+    color: #ffffff;
+    font-weight: 200px;
+    font-size: 22px;
+    overflow-x: hidden;
+    background-image: url('./Pictures/f9launchstarlink6-23-800x533.jpg');
+    background-size: cover;
+    text-align: justify;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-weight: 600px;
+    background-image: url('./Pictures/f9launchstarlink6-23-800x533.jpg');
+    background-size: cover;
+    
+}
+
+nav {
+    display: flex;
+    background-color: #002574;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 100%;
+    margin: 0px;
+    letter-spacing: 5px;
+    font-family:"Archivo Black", sans-serif ;
+    padding: 30px 20;
+}
+
+nav a:hover {
+    padding: 14px 20px;
+    background-color: #276be0;
+    border-radius: 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #002574;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    margin-top: 88px;
+    width: 100%;
+    bottom: 0;
+}
